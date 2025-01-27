@@ -19,7 +19,7 @@ export default function AuthLayout({
   const pathname = usePathname();
   const [input, setInput] = useState("");
   return (
-    <div>
+    <div> 7w
       <div>
         <input value={input} onChange={(e) => setInput(e.target.value)} />
       </div>
